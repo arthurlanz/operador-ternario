@@ -23,7 +23,7 @@
     let despesas = contaAgua + contaEnergia + contaTelefone + mercado;
     let sobra = salario - despesas;
     let sobraNegativo = sobra * -1
-    let mensagem = ``;
+    let mensagem = "";
     //PROCESSAMENTO
 
     (salario < despesas) ? mensagem = `Faltou R$${sobraNegativo.toFixed(2)} para pagar as contas` : (salario = despesas) ? mensagem = `Nao te sobrou dinheiro esse mes` : mensagem = `Voce conseguiu pagar as suas contas e te sobrou R$${sobra.toFixed(2)}`
